@@ -1,35 +1,35 @@
 # messenger frontend (dev)
 
-###TODO:
+### TODO:
 
-####Common: 
+#### Common: 
 - [ ] Refactor!!!
 - [ ] Delete `@ts-ignore`
 - [ ] linter
 - [ ] Deploy
 ---
-####Design:
+#### Design:
 - [ ] Add buttons for editing messages
 - [ ] Button for logging out
 ---
-####Components:
+#### Components:
 - [ ] Composition
 - [ ] Name components properly
 - [ ] File picker for images
 ---
-####Pages: 
+#### Pages: 
 - [ ] Lazyload
 - [ ] Remove long functions from useEffect
 - [ ] Store url of the unauthorized user and redirect after logging in
 ---
-####State:
+#### State:
 - [ ] Test state
 - [ ] Filter received messages
 - [ ] Add cash for messages which are not saved yet
 - [ ] Add logout action, update/delete chat actions
 - [ ] Store chatId from a link for unauthorized user
 ---
-####Socket:
+#### Socket:
 - [ ] Receive events globally
 - [ ] Add receivers for all server emits
 - [ ] Init socket in login action
