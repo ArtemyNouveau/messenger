@@ -11,11 +11,14 @@
 #### Design:
 - [ ] Add buttons for editing messages
 - [ ] Button for logging out
+- [ ] Add spinner/shimmer on loading
 ---
 #### Components:
 - [ ] make useUrlParams hook
 - [ ] Name components properly
 - [ ] File picker for images
+- [ ] Get rid of unnecessary rerenders
+- [ ] Send message on Enter button
 ---
 #### Pages: 
 - [ ] Lazyload for each page component
@@ -24,7 +27,7 @@
 ---
 #### State:
 - [ ] Test state
-- [ ] Filter received messages
+- [ ] Sort received messages
 - [ ] Add cash for messages which are not saved yet
 - [ ] Add logout action, update/delete chat actions
 - [ ] Store chatId from a link for unauthorized user
