@@ -47,7 +47,7 @@ const ChatPage = ({isAuth, userChats, currentChat, fetchUserChats, changeCurrent
         const token = localStorage.getItem('authToken');
 
         if (token) {
-            const socketInstance = socket.init('http://localhost:8080', token)
+            const socketInstance = socket.init('https://messenger-interview.herokuapp.com/', token)
 
             socketInstance.on("message", payload => {
                 receiveMessage(payload.chatId, payload.message)
