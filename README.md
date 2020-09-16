@@ -13,12 +13,12 @@
 - [ ] Button for logging out
 ---
 #### Components:
-- [ ] Composition
+- [ ] make useUrlParams hook
 - [ ] Name components properly
 - [ ] File picker for images
 ---
 #### Pages: 
-- [ ] Lazyload
+- [ ] Lazyload for each page component
 - [ ] Remove long functions from useEffect
 - [ ] Store url of the unauthorized user and redirect after logging in
 ---
@@ -30,7 +30,7 @@
 - [ ] Store chatId from a link for unauthorized user
 ---
 #### Socket:
-- [ ] Receive events globally
+- [ ] init in App.js
 - [ ] Add receivers for all server emits
 - [ ] Init socket in login action
 ---
