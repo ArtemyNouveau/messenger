@@ -30,9 +30,9 @@
 - [ ] Store chatId from a link for unauthorized user
 ---
 #### Socket:
-- [ ] init in App.js
 - [ ] Add receivers for all server emits
 - [ ] Init socket in login action
+- [ ] ? useSocket
 ---
 
 Default Readme
