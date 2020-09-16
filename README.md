@@ -1,3 +1,42 @@
+#messenger frontend (dev)
+
+###TODO:
+
+####Common: 
+- [ ] Refactor!!!
+- [ ] Delete `@ts-ignore`
+- [ ] linter
+- [ ] Deploy
+---
+####Design:
+- [ ] Add buttons for editing messages
+- [ ] Button for logging out
+---
+####Components:
+- [ ] Composition
+- [ ] Name components properly
+- [ ] File picker for images
+---
+####Pages: 
+- [ ] Lazyload
+- [ ] Remove long functions from useEffect
+- [ ] Store url of the unauthorized user and redirect after logging in
+---
+####State:
+- [ ] Test state
+- [ ] Filter received messages
+- [ ] Add cash for messages which are not saved yet
+- [ ] Add logout action, update/delete chat actions
+- [ ] Store chatId from a link for unauthorized user
+---
+####Socket:
+- [ ] Receive events globally
+- [ ] Add receivers for all server emits
+- [ ] Init socket in login action
+---
+
+Default Readme
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
