@@ -11,31 +11,30 @@
 #### Design:
 - [ ] Add buttons for editing messages
 - [ ] Button for logging out
-- [ ] Add spinner/shimmer on loading
+- [X] Add spinner/shimmer on loading
 ---
 #### Components:
-- [ ] make useUrlParams hook
-- [ ] Name components properly
+- [X] make useUrlParams hook
+- [X] Name components properly
 - [ ] File picker for images
-- [ ] Get rid of unnecessary rerenders
+- [X] Get rid of unnecessary rerenders
 - [ ] Send message on Enter button
 ---
 #### Pages: 
-- [ ] Lazyload for each page component
-- [ ] Remove long functions from useEffect
-- [ ] Store url of the unauthorized user and redirect after logging in
+- [X] Lazyload for each page component
+- [X] Remove long functions from useEffect
+- [X] Store url of the unauthorized user and redirect after logging in
 ---
 #### State:
 - [ ] Test state
-- [ ] Sort received messages
+- [X] Sort received messages
 - [ ] Add cash for messages which are not saved yet
 - [ ] Add logout action, update/delete chat actions
-- [ ] Store chatId from a link for unauthorized user
+- [X] Store chatId from a link for unauthorized user
 ---
 #### Socket:
-- [ ] Add receivers for all server emits
-- [ ] Init socket in login action
-- [ ] ? useSocket
+- [X] Add receivers for all server emits
+- [X] ? useSocket
 ---
 
 Default Readme
